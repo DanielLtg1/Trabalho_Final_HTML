@@ -1,0 +1,389 @@
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #f5f2ee;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 13px;
+	color: #575757;
+}
+
+body p, body .entry li {
+	font-size: 17px;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #32639A;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+a {
+	text-decoration: none;
+	color: #787878;
+}
+
+a:hover{
+	color: #2e8dfa;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#box {
+	display: grid;
+	place-items: center; 
+	height: 100vh;
+	padding: 20px;
+	border: 4px solid #2e8dfa;
+	background-color: #043d7e;
+	width: 200px;
+	height: 150px;
+	border-radius: 20px;
+}
+
+#box h1 {
+	color: #f5f2ee;
+}
+
+#box a:hover {
+	color: aqua;
+}
+
+/* Header */
+
+#header-wrapper {
+	height: 100px;
+	background: #043d7e;
+	border-bottom: 5px solid #2e8dfa;
+}
+
+#header {
+	width: 940px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	margin: 0;
+	padding-top: 20px;
+	color: #000000;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	float: left;
+	letter-spacing: -1px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 3.8em;
+}
+
+#logo p {
+	float: left;
+	margin-top: -2px;
+	padding: 26px 0 0 10px;
+	font-size: 14px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-style: italic;
+	color: #f7f2ea;
+}
+
+#logo span {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #f7f2ea;
+}
+
+#logo span:hover {
+	color: aqua;
+}
+
+
+/* Page */
+
+#page {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+/* Content */
+
+#content {
+	float: right;
+	width: 620px;
+	padding: 30px 0px 0px 0px;
+}
+
+.post {
+	margin-bottom: 15px;
+}
+
+.post .title {
+	margin-bottom: 10px;
+	padding: 12px 0 0 0px;
+	letter-spacing: -.5px;
+	color: #2e8dfa;
+}
+
+.post .title span, .post .meta span {
+	color: #2e8dfa;
+	border: none;
+}
+
+.post .entry p strong {
+	color: #043d7e;
+}
+
+.post .meta {
+	height: 30px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.post .meta span {
+	color: #2e8dfa;
+}
+
+.post .meta a {
+	color: #2e8dfa;
+}
+
+.post .meta a:hover {
+	color: #043d7e;
+}
+
+.post .entry a {
+	font-style: italic;
+	text-decoration:underline;
+}
+
+.post .entry {
+	padding: 0px 0px 20px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.post a {
+	text-decoration: underline;
+}
+
+.entry li {
+	padding: 3px;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 280px;
+	padding-top: 2.5em;
+	color: #5f5f5f;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 15px;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin: 0px 0px;
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	line-height: 35px;
+	border-bottom: 1px dashed #D1D1D1;
+	margin: 0px 30px;
+	border-left: none;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	height: 38px;
+	padding-left: 30px;
+	letter-spacing: -.5px;
+	font-size: 1.8em;
+	color: #2e8dfa;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 0px 30px 20px 30px;
+	text-align: justify;
+}
+
+#sidebar a {
+	border: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+	color: #2e8dfa;
+}
+
+/* Footer */
+
+#footer {
+	height: 50px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	background: #043d7e;
+	border-top: 5px solid #2e8dfa;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 20px;
+	line-height: normal;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #2e8dfa;
+}
+
+#footer span {
+	color: #2e8dfa;
+}
+
+#gallery-background {
+	width: 620px;
+	height: 360px;
+	margin-bottom: 10px;
+	background: #2e8dfa;
+	border-radius: 10px;
+}
+
+#gallery-bgthumb {
+	width: 620px;
+	height: 120px;
+	background: #ffffff;
+	border-radius:17px;
+}
+
+#gallery
+{
+	width: 620px;
+	margin: 0 auto;
+}
+
+#gallery img.output
+{
+	width: 600px;
+	height: 340px;
+	padding: 10px 0px 0px 10px;
+}
+
+#gallery span.caption
+{
+	display: block;
+	margin: 1em 0 0 0;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+#gallery span.caption2
+{
+	margin: 1em 0 1em 0;
+	display: block;
+}
+
+#gallery ul.nav
+{
+	width: 100%;
+	list-style: none;
+	margin: 0 0 3em 0;
+	padding: 0;
+}
+
+#gallery ul.nav li
+{
+	margin: 0 1em 1em 0;
+	float: left;
+}
+
+#gallery ul.thumbnails
+{
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 10px 0px 0px 6px;
+}
+
+#gallery ul.thumbnails li
+{
+	margin: 0 0.5em 1em 0.5em;
+	float: left;
+}
+
+#gallery ul.thumbnails li img
+{
+	width: 128px;
+	height: 88px;
+	border: solid 6px #043d7e;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+#gallery ul.thumbnails li img.active
+{
+	border: solid 6px #2e8dfa;
+	border-radius: 10px;
+}
